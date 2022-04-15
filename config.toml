@@ -1,0 +1,179 @@
+baseURL = "Me"
+title   = "Juan Espinoza"
+languageCode = "en-us"
+theme = "hello-friend-ng"
+PygmentsCodeFences = true
+PygmentsStyle = "monokai"
+
+paginate  = 10
+rssLimit  = 10  # Maximum number of items in the RSS feed.
+copyright = "𝕸𝖔𝖔𝖓𝖑𝖎𝖌𝖍𝖙"
+
+# googleAnalytics = ""
+# disqusShortname = ""
+
+archetypeDir = "archetypes"
+contentDir   = "content"
+dataDir      = "data"
+layoutDir    = "layouts"
+publishDir   = "public"
+
+buildDrafts  = false
+buildFuture  = false
+buildExpired = false
+canonifyURLs = true
+
+enableRobotsTXT = true
+enableGitInfo   = false
+enableEmoji     = true
+enableMissingTranslationPlaceholders = false
+disableRSS     = false
+disableSitemap = false
+disable404     = false
+disableHugoGeneratorInject = false
+
+[permalinks]
+  posts = "/posts/:year/:month/:title/"
+
+[author]
+  name = "Juan Espinoza"
+
+[blackfriday]
+  hrefTargetBlank = true
+
+[taxonomies]
+  tag      = "tags"
+  category = "categories"
+  series   = "series"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+
+  # Metadata
+  # 
+  description = "Juan's Website"
+  keywords = ""
+  images = [""]
+
+  # Home Subtitle
+  #
+  homeSubtitle = "- My Socials -"
+
+  # Background For Homepage
+  # backgroundImage = "assets/images/background.jpg"
+
+  # Prefix of link to the git commit detail page. GitInfo must be enabled.
+  #
+  # gitUrl = ""
+
+  # Set disableReadOtherPosts
+  #
+  disableReadOtherPosts = true
+
+  # Enable theme toggle
+  # 
+  enableThemeToggle = true
+
+  # Sharing buttons
+  #
+  # Generate Buttons https://sharingbuttons.io
+  # and add them into your own `layouts/partials/sharing-buttons.html`
+  #
+  enableSharingButtons = true
+
+  # Global language menu
+  #
+  enableGlobalLanguageMenu = false
+
+  # Integrate Javascript files or stylesheets by adding the url to the external assets or by
+  # linking local files with their path relative to the static folder, e.g. "css/styles.css"
+  #
+  # customCSS = []
+  # customJS  = []
+
+  # Toggle this option need to rebuild SCSS, requires extended version of Hugo
+  #
+  justifyContent = false  # Set "text-align: justify" to .post-content.
+
+  # Custom footer 
+  # If you want, you can easily override the default footer with your own content. 
+  #
+  [params.footer]
+    trademark = true
+    rss = false
+    copyright = true
+    author = true
+
+    topText = []
+    bottomText = [
+      "Powered by my basement generators</a>",
+      "Made by <a href=\"https://www.instagram.com/ju4n.espinoza/\">Juan Espinoza</a>"
+    ]
+
+  # Colors for favicons
+  #
+  [params.favicon.color]
+    mask = "#6495ED"
+    msapplication = "#6495ED"
+    theme = "#6495ED"
+
+  [params.logo]
+    logoMark     = ">"
+    logoText     = "Juan_Espinoza"
+    logoHomeLink = "/"
+    # Cursor 
+    logoCursorDisabled = false
+    logoCursorColor    = "#6495ED"
+    logoCursorAnimate  = "1s"
+
+  # Commento is more than just a comments widget you can embed — 
+  # it’s a return to the roots of the internet. 
+  # An internet without the tracking and invasions of privacy. 
+  # An internet that is simple and lightweight. 
+  # An internet that is focused on interesting discussions, not ads. 
+  # A better internet.
+  # Uncomment this to enable Commento.
+  #
+  # [params.commento]
+  #   url = ""
+
+  # Uncomment this if you want a portrait on your start page
+  #
+  # [params.portrait]
+  #   path     = "/img/image.jpg"
+  #   alt      = "Portrait"
+  #   maxWidth = "50px"
+
+  # Social icons
+  [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/ZonatedT"
+
+  [[params.social]]
+    name = "discord"
+    url  = "https://discord.gg/Ta8gUHvbKV"
+
+  [[params.social]]
+    name = "youtube"
+    url  = "https://www.youtube.com/channel/UCZoLw-IobgS6EowyYTUjCiQ"
+
+  [[params.social]]
+    name = "instagram"
+    url  = "https://www.instagram.com/ju4n.espinoza/"
+
+  # [[params.social]]
+    # name = ""
+    # url  = ""
+
+[menu]
+  [[menu.main]]
+    identifier = "Music"
+    name       = "- Relax -"
+    url        = "https://youtu.be/N_Ba_XMeuSw"
+  # [[menu.main]]
+    # identifier = "posts"
+    # name       = "Posts"
+    # url        = "posts/"
